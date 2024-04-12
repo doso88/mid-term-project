@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2F2F2;
+    font-family: "poppins";
+}
+
+.flex{
+    display: flex;
+}
+/*header-styles*/
+.navigation{
+    width: 100%;
+    max-width: 1700px;
+    justify-content: space-between;
+    margin:40px auto;
+}
+.logo-size{
+    width: 48px;
+    height: 48px;
+}
+.nav{
+    max-width: 100px;
+    max-width: 600px;
+    gap: 50px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
+li :hover{
+    text-decoration: underline green 3px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header-button{
+    width: 156px;
+    height: 47px;
+    padding: auto;
+    color: white;
+    background-color: #29B24E;
+    border: none;
+    border-radius: 13px;
+}
+/*city size*/
+.grey-text{
+    color: grey;
+    font-size: 14px;
+}
+.padding-10px{
+    padding-right: 10px;
+}
+/*main-styles*/
+.location-search{
+    max-width: 1700px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.location{
+    background-color: white;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 440px;
+    height: 751px;
+    border-radius: 12px;
+    padding: 20px;
+}
+.title-16px{
+    font-size: 16px;
+}
+.territory{
+    flex-direction: column;
+}
+.Kenya{
+    max-width: 330px;
+    max-height: 48px;
+    padding: 13px 200px 13px 26px;
+    border-radius: 13px;
+    background-color: white;
+    border: 1px solid rgb(226, 219, 219);
+    margin-top: 15px;
+}
+.property{
+    flex-direction: column;
+    gap: 10px;
+}
+.price-range{
+    flex-direction: column;
+    width: 345px;
+    gap: 10px;
+}
+.checkbox{
+    align-items: center;
+}
+.tick{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(131, 125, 125);
+    cursor: pointer;
+    margin-right: 10px;
+    accent-color: green;
+}
+
+.search{
+     max-width: 1225px;
+}
+.city{
+    width: 1225px;
+    height: 751px;
+    position: relative;
+}
+.search-text{
+    max-width: 1000px;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+h1{
+    font-size: 48px;
+}
+.search-tab{
+    width: 324px;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+/*main-styles*/
+.trending-ads{
+    max-width: 1700px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+}
+.title-18px{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.ads-box{
+    justify-content: space-between;
+}
+.apartment-description{
+    max-width: 395px;
+    max-height: 424px;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    border-radius: 23px;
+    padding: 16px;
+}
+.apartment-img{
+    width: 363px;
+    height: 202px;
+    border-radius: 20px;
+}
+.vip{
+    width: 102px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 190px;
+    right: 20px;
+}
+.bookmark{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 207px;
+    right: 37px;
+}
+.apartment-title{
+    font-size: 16px;
+}
+.grey-text{
+    font-size: 14px;
+}
+.price-month{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.price{
+    font-size: 22px;
+    color: green;
+}
+.apartment-details{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    border-top: 2px solid rgb(191, 185, 185);
+    padding-top: 8px;
+}
+/*second page style*/
+.app-large{
+    max-width: 1700px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.app-large-img{
+    max-width: 850px;
+    max-width: 850px;
+}
+.white-house-large{
+    border-radius: 15px;
+    width: 830px;
+    height: 732px;
+}
+.app-large-text{
+    max-width: 850px;
+    max-height: 850px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 13px;
+}
+.vip-view{
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.view{
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.vip-whitehouse{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: green;
+}
+.white-house-details{
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 850px;
+}
+.title-22px{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.lorem{
+    max-width: 700px;
+    margin-top: 30px;
+}
+.details-2bdrm{
+    border-top: 2px solid rgb(191, 185, 185);
+    border-bottom: 2px solid rgb(191, 185, 185);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.prop-column{
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.prop-column-first{
+    flex-direction: column;
+}
+.title-14px{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.prop-column-second{
+    flex-direction: column;
+    max-width: 200px;
+}
+.facilities{
+    flex-direction: column;
+    gap: 3px;
+}
+.prop-column-third{
+    flex-direction: column;
+}
+.book{
+    border-top: 2px solid rgb(191, 185, 185);
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+.price-28px{
+    font-size: 28px;
+    color: green;
+}
+.messege-call{
+    width: 270px;
+    justify-content: space-between;
+}
+.sent{
+    width: 180px;
+    height: 45px;
+    border: 2px solid green;
+    background-color: white;
+    border-radius: 13px;
+    color: green;
+}
+.call{
+    width: 70px;
+    height: 45px;
+    background-color: green;
+    border-radius: 13px;
+    color: white;
+}
+/*footer-styles*/
+footer{
+    margin-top: 20px;
+    background-color: #29B24E;
+    border-radius: 15px;
+}
+.footer-nav{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.footer-top{
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+}
+.top-nav{
+        max-width: 100px;
+        max-width: 600px;
+        gap: 50px;
+        font-size: 18px;
+        justify-content: space-between;
+        color: white;
+}
+.top-nav a{
+    color: white;
+}
+.footer-bottom{
+    text-align: center;
+    color: white;
+    border-top: 2px solid rgb(191, 185, 185);
+    padding-top: 30px;
+}
