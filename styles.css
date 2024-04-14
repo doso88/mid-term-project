@@ -353,3 +353,113 @@ footer{
     border-top: 2px solid rgb(191, 185, 185);
     padding-top: 30px;
 }
+@media (max-width:769px) {
+    .location-search{
+        flex-direction: column-reverse;
+    }
+    .location{
+        max-width: 768px;
+        padding-left: 220px;
+    }
+    .city{
+        width: 768px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    .search-text{
+        left: 55px;
+    }
+    .title-18px{
+        margin-left: 320px;
+    }
+    .ads-box{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .top-nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .app-large{
+        flex-direction: column;
+    }
+    .white-house-large{
+        width: 750px;
+        height: 600px;
+    }
+}
+@media (max-width:430px) {
+    .nav{
+       display: none;
+    }
+    .navigation{
+        width: 748px;
+    }
+    .location-search{
+        flex-direction: column-reverse;
+    }
+    .location{
+        width: 768px;
+    }
+    .city{
+        width: 768px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    .search-text{
+        left: 220px;
+    }
+    .title-18px{
+        margin-left: 320px;
+        width: 150px;
+    }
+    .ads-box{
+        flex-wrap: wrap;
+        margin-left: 330px;
+        gap: 20px;
+    }
+    .footer-nav{
+        width: 756px;
+        background-color: #29B24E;
+    }
+}
+@media (max-width:380px) {
+    .nav{
+        display: none;
+     }
+     .navigation{
+         width: 748px;
+     }
+     .location-search{
+         flex-direction: column-reverse;
+     }
+     .location{
+         width: 768px;
+     }
+     .city{
+         width: 768px;
+     }
+     h1{
+         font-size: 38px;
+     }
+     .search-text{
+         left: 220px;
+     }
+     .title-18px{
+         margin-left: 320px;
+         width: 150px;
+     }
+     .ads-box{
+         flex-wrap: wrap;
+         margin-left: 370px;
+         gap: 20px;
+     }
+     .footer-nav{
+         width: 768px;
+         background-color: #29B24E;
+     }
+    
+}
